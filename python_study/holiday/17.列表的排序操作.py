@@ -1,0 +1,16 @@
+#list.sort(reversre=False)或list.sort()都是升序，list.sort(reverse=True)是降序
+'''lis=[1,2,3,4,5,67,89,114514]
+lis.sort(reverse=False)
+print(lis)
+lis.sort(reverse=True)
+print(lis)
+lis.sort()
+print(lis)'''
+#list_new=sorted(list)与list_new=sorted(list,reverse=False)为升序，list_new=sorted(reverse=True)是降序
+'''lis=[1,2,3,4,5,67,89,114514]
+lis_new=sorted(lis,reverse=False)
+print(lis_new)
+lis_new=sorted(lis,reverse=True)
+print(lis_new)
+lis_new=sorted(lis)
+print(lis_new)'''
